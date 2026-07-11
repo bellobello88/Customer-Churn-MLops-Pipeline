@@ -441,10 +441,6 @@ python -m tracking.log_current_run
 - Add unit tests and GitHub Actions
 - Add data-drift monitoring for new customer batches
 
-## Resume Bullet
-
-> Built an end-to-end customer churn prediction pipeline using PySpark for scalable ETL and feature engineering, PyTorch for neural-network classification, and MLflow for experiment tracking, artifact management, distribution-shift analysis, and model versioning.
-
 ## License
 
 This project is intended for educational and portfolio use.
