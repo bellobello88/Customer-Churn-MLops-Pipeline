@@ -1,0 +1,30 @@
+# macOS
+.DS_Store
+
+# Python
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Environment variables
+.env
+.env.*
+
+# Kaggle datasets and generated data
+data/raw/
+data/processed/
+
+# MLflow local files
+mlflow.db
+mlruns/
+mlartifacts/
+
+# Generated model files
+models/*.pt
+models/*.pth
+
+# IDE
+.vscode/
+.idea/

@@ -1,0 +1,44 @@
+{
+  "best_epoch": 8,
+  "validation": {
+    "loss": 0.02293785952333016,
+    "accuracy": 0.9937693761814744,
+    "precision": 0.9999730385548665,
+    "recall": 0.98904,
+    "f1": 0.9944764713768601,
+    "roc_auc": 0.9992172501892286,
+    "average_precision": 0.999500895011196
+  },
+  "internal_test": {
+    "loss": 0.023289956602403482,
+    "accuracy": 0.9934820415879017,
+    "precision": 0.9999460523831359,
+    "recall": 0.98856,
+    "f1": 0.9942204283051507,
+    "roc_auc": 0.9991551175545851,
+    "average_precision": 0.9994627928686347
+  },
+  "external_test": {
+    "loss": 20.76114089097804,
+    "accuracy": 0.509615683350421,
+    "precision": 0.49132210723453723,
+    "recall": 0.9979995408782344,
+    "f1": 0.6584732560152328,
+    "roc_auc": 0.5950453599390352,
+    "average_precision": 0.527231674291175
+  },
+  "parameters": {
+    "batch_size": 2048,
+    "epochs": 8,
+    "learning_rate": 0.002,
+    "prediction_threshold": 0.5,
+    "input_features": 15,
+    "random_seed": 42
+  },
+  "dataset_sizes": {
+    "training": 308582,
+    "validation": 66125,
+    "internal_test": 66125,
+    "external_test": 64374
+  }
+}
